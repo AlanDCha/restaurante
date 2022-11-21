@@ -1,0 +1,12 @@
+@import url("/src/font_face.css");
+@import url("/src/color.css");
+
+.pie_pagina {
+  font-family: Montserrat;
+  background-color: var(--beige);
+  padding: 1em;
+}
+
+.pie_pagina h2 {
+  text-align: center;
+}

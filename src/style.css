@@ -1,0 +1,11 @@
+@import url("/src/navbar.css");
+@import url("/src/footer.css");
+
+.menu {
+  font-family: Lato;
+  height: 100vh;
+}
+
+.menu .platillo {
+  width: 100%;
+}
