@@ -13,3 +13,38 @@ h1 {
 .menu img {
   width: 100%;
 }
+
+.menu figcaption {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.menu .contenedor {
+  background-color: #fff;
+  width: 95%;
+  margin: 1em auto;
+  padding: 1em 0;
+  border-radius: 1em;
+}
+
+.menu h2 {
+  padding: 1em;
+}
+
+.menu .platillos {
+  width: 90%;
+  margin: 2em auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: space-around;
+}
+
+.menu .platillos .platillo {
+  width: 20em;
+  height: 20em;
+  object-fit: cover;
+  border-radius: 1em;
+  box-shadow: 2px 2px 8px 4px #232323;
+}

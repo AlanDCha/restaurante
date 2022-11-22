@@ -1,2 +1,79 @@
 @import url("/src/navbar.css");
 @import url("/src/footer.css");
+
+.menu {
+  font-family: Montserrat;
+}
+
+.menu .subtitulo {
+  padding: 1em 0;
+  text-align: center;
+}
+
+.menu .paquetes {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 1em;
+  gap: 2em;
+  justify-content: space-between;
+  box-shadow: 2px 2px 8px 0px #232323;
+}
+
+.paquetes .paquete {
+  display: flex;
+  flex-direction: row;
+  width: 26em;
+  gap: 1em;
+  background-color: var(--verde_claro);
+  border-radius: 1em;
+}
+
+.paquetes .paquete img {
+  width: 12em;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+.paquetes .paquete .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1em 0;
+}
+
+.info input {
+  background-color: var(--verde_neutro);
+  border: none;
+  color: #fff;
+  padding: .5em 0;
+  border-radius: 1em;
+  cursor: pointer;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.info input:hover {
+  transition: .5s;
+  width: 90%;
+  color: var(--beige);
+}
+
+.cupones {
+  font-family: Lato;
+  background-color: var(--verde_neutro);
+  margin: 2em 0;
+  color: #fff;
+  padding: 2em 0;
+  text-align: center;
+}
+
+.cupones h2 {
+  padding: 1em;
+  font-size: 2em;
+}

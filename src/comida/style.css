@@ -13,7 +13,7 @@
 
 h1 {
   text-align: center;
-  padding-bottom: 1em;
+  padding: 1em 0;
 }
 
 .platillos {
@@ -22,7 +22,7 @@ h1 {
   flex-wrap: wrap;
   gap: 1em;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 
 .platillos .platillo {
