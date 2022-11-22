@@ -1,2 +1,72 @@
 @import url("/src/navbar.css");
 @import url("/src/footer.css");
+
+.menu {
+  font-family: Lato;
+  width: 90%;
+  margin: 1em auto;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: #fff;
+  box-shadow: 2px 2px 8px 0px #343434;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.platillos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.platillos .platillo {
+  display: inline-flex;
+  width: 25em;
+  background-color: var(--verde_claro);
+  border-radius: 1em;
+  gap: 1em;
+  box-shadow: 2px 2px 8px #343434;
+}
+
+.platillos .platillo img {
+  width: 10em;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+.platillos .platillo .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: .5em;
+  width: 60%;
+}
+
+.platillos .platillo .info h2 {
+  padding: .2em 0;
+  font-size: 1.2em;
+}
+
+.platillos .platillo .info input {
+  font-family: Montserrat;
+  padding: .5em;
+  border-radius: 1em;
+  border: none;
+  background-color: var(--verde_neutro);
+  color: #fff;
+  cursor: pointer;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.platillos .platillo .info input:hover {
+  width: 100%;
+  transition: .5s;
+  color: var(--beige);
+}

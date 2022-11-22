@@ -1,2 +1,15 @@
 @import url("/src/navbar.css");
 @import url("/src/footer.css");
+
+.menu {
+  font-family: Montserrat;
+}
+
+h1 {
+  text-align: center;
+  padding: 1em 0;
+}
+
+.menu img {
+  width: 100%;
+}

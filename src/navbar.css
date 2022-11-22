@@ -11,6 +11,7 @@
   justify-content: space-between;
   align-items: center;
   height: 5vh;
+  z-index: 1000;
 }
 
 .navbar h2 {
@@ -23,6 +24,10 @@
 .navbar h2 a {
   text-decoration: none;
   color: #fff;
+}
+
+.navbar h2 a:hover {
+  color: var(--beige);
 }
 
 .navbar ul {
