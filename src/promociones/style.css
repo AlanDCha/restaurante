@@ -19,7 +19,7 @@
   background-color: #fff;
   padding: 1em;
   border-radius: 1em;
-  gap: 2em;
+  gap: 1em;
   justify-content: space-between;
   box-shadow: 2px 2px 8px 0px #232323;
 }
@@ -27,7 +27,7 @@
 .paquetes .paquete {
   display: flex;
   flex-direction: row;
-  width: 26em;
+  width: 25em;
   gap: 1em;
   background-color: var(--verde_claro);
   border-radius: 1em;
@@ -45,6 +45,10 @@
   justify-content: space-between;
   width: 100%;
   padding: 1em 0;
+}
+
+.info p {
+  font-size: .9em;
 }
 
 .info input {

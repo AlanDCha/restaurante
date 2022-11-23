@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 5vh;
+  height: 3rem;
   z-index: 1000;
 }
 
@@ -30,29 +30,29 @@
   color: var(--beige);
 }
 
-.navbar ul {
+.navbar .index {
   padding: 0 .5em;
 }
 
-.navbar ul li {
+.navbar .index li {
   display: inline-block;
   padding: .5em 2px;
 }
 
-.navbar ul li a {
+.navbar .index li a {
   padding: .5em;
 }
 
-.navbar ul li:hover {
+.navbar .index li:hover {
   background-color: var(--verde_neutro);
   border-radius: 15px;
 }
 
-.navbar ul li a:hover {
+.navbar .index li a:hover {
   color: var(--beige);
 }
 
-.navbar ul li a {
+.navbar .index li a {
   text-decoration: none;
   color: #fff;
 }

@@ -25,6 +25,7 @@ h1 {
   margin: 1em auto;
   padding: 1em 0;
   border-radius: 1em;
+  box-shadow: 2px 2px 8px 0px #232323;
 }
 
 .menu h2 {
@@ -46,5 +47,4 @@ h1 {
   height: 20em;
   object-fit: cover;
   border-radius: 1em;
-  box-shadow: 2px 2px 8px 4px #232323;
 }

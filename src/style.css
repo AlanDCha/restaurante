@@ -25,6 +25,10 @@
   background-color: rgba(0, 0, 0, .25);
 }
 
+.presentacion h3 {
+  padding-bottom: 1em;
+}
+
 .menu .presentacion .titulo {
   font-family: GreatVibes;
 }
@@ -35,11 +39,35 @@
 
 .menu .secciones {
   margin: 1em .5em;
-  padding: .5em;
-  padding-bottom: 2.5rem;
   background-color: #fff;
   border-radius: 1em;
   box-shadow: 0px 0px 4px 1px #494949;
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+
+.izquierda {
+  color: #fff;
+  width: 30%;
+  background-color: var(--verde_oscuro);
+  padding: .5em 1em;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+.izquierda h2 {
+  padding: 1em 0;
+}
+
+.izquierda p {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.derecha {
+  width: 70%;
+  padding: 0 .5em;
 }
 
 .menu .secciones h2 {
