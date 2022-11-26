@@ -1,3 +1,7 @@
+/* 
+  Este archivo se encarga solo de aplicar los estilos al pie de pagina en todo el 
+  sitio web
+ */
 @import url("/src/font_face.css");
 @import url("/src/color.css");
 

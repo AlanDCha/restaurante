@@ -1,3 +1,7 @@
+/* 
+  Este archivo se encarga de aplicar el estilo solo al encabezado
+  del sitio web
+ */
 @import url("/src/font_face.css");
 @import url("/src/color.css");
 

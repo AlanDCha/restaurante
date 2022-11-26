@@ -1,14 +1,15 @@
+/* 
+  En cada archivo importamos los estilos siempre del encabezado y el pie de pagina
+ */
 @import url("/src/navbar.css");
 @import url("/src/footer.css");
 
 .menu {
   font-family: Lato;
-  min-height: 100vh;
 }
 
 .menu .presentacion {
   background-position: center;
-  width: 100%;
   margin: auto 0;
   background-image: url("/imgs/wide_image.jpg");
   width: 100%;
@@ -19,12 +20,6 @@
   text-align: center;
 }
 
-.presentacion::before {
-  content: "";
-  position: absolute;
-  background-color: rgba(0, 0, 0, .25);
-}
-
 .presentacion h3 {
   padding-bottom: 1em;
 }
@@ -33,12 +28,9 @@
   font-family: GreatVibes;
 }
 
-.menu .platillo {
-  width: 100%;
-}
-
 .menu .secciones {
-  margin: 1em .5em;
+  margin: 1em auto;
+  width: 80%;
   background-color: #fff;
   border-radius: 1em;
   box-shadow: 0px 0px 4px 1px #494949;

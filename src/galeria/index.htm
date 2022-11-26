@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- 
+      La etiqueta nav es la que se encarga de navegar entre las paginas del sitio web
+      Tanto nav como footer tendran la misma informacion en todas las carpetas que
+      corresponden a las secciones del sitio web
+    -->
     <nav class="navbar">
       <h2><a href="/src/index.htm">Kitory</a></h2>
       <ul class="index">
@@ -17,12 +22,16 @@
         <li><a href="/src/promociones/index.htm">Promociones</a></li>
       </ul>
     </nav>
+    <!-- Creamos nuestra etiqueta padre que contendra todo el contenido -->
     <main class="menu">
       <h1>Dale un vistazo a nuestra galería</h1>
+      <!-- Esta etiquete muestra el establecimiento y su correspodiente 
+      descripcion -->
       <figure>
         <img src="/imgs/Floresta.jpg" alt="establecimiento" />
         <figcaption>Establecimiento Kitory</figcaption>
       </figure>
+      <!-- Este div contiene todos los imagenes de los platillos -->
       <div class="contenedor">
         <h2>Observa nuestros platillos</h2>
         <div class="platillos">
@@ -40,6 +49,9 @@
         <h4>Programación web</h4>
         <h4>1559</h4>
       </div>
+      <!-- 
+    La etiqueta footer se encarga de mostrar el pie de pagina del sitio web
+  -->
     </footer>
   </body>
 </html>
