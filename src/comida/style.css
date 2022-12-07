@@ -1,8 +1,8 @@
 /* 
   En cada archivo importamos los estilos siempre del encabezado y el pie de pagina
  */
-@import url("/src/navbar.css");
-@import url("/src/footer.css");
+@import url("../navbar.css");
+@import url("../footer.css");
 
 .menu {
   font-family: Lato;
@@ -26,11 +26,13 @@ h1 {
   gap: 2em;
   align-items: center;
   justify-content: space-evenly;
+  padding: 2em 0;
 }
 
 .platillos .platillo {
   display: inline-flex;
   width: 25em;
+  height: 10em;
   background-color: var(--verde_claro);
   border-radius: 1em;
   gap: 1em;

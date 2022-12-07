@@ -1,8 +1,8 @@
 /* 
   En cada archivo importamos los estilos siempre del encabezado y el pie de pagina
  */
-@import url("/src/navbar.css");
-@import url("/src/footer.css");
+@import url("../navbar.css");
+@import url("../footer.css");
 
 .menu {
   font-family: Montserrat;
